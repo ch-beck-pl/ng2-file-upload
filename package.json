@@ -8,7 +8,7 @@
     "demo.build": "ng build",
     "demo.build-prod": "ng build",
     "build": "nx run ng2-file-upload:build",
-    "build-prod": "nx run ng2-file-upload:build",
+    "build-prod": "nx run ng2-file-upload:build --configuration production",
     "lint": "nx run-many --target=lint --all",
     "test": "nx run-many --target=test --all",
     "version": "nx run ng2-file-upload:version",
@@ -16,7 +16,8 @@
     "test-coverage": "nx run-many --all --target=test --codeCoverage",
     "demo.gh-pages": "run-s build demo.build demo.deploy",
     "demo.deploy": "gh-pages -d dist/apps/demo",
-    "flow.github-release": "conventional-github-releaser -p angular"
+    "flow.github-release": "conventional-github-releaser -p angular",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "angular",
