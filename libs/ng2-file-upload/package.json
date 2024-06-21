@@ -1,31 +1,31 @@
 {
-  "name": "@augwit/ng2-file-upload",
-  "version": "6.0.0",
+  "name": "@ch-beck-pl/ng2-file-upload",
+  "version": "7.0.0",
   "description": "Angular file uploader",
   "author": "Dmitriy Shekhovtsov <valorkin@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/core": "^16.0.0 || ^17.0.0",
-    "@angular/common": "^16.0.0 || ^17.0.0"
+    "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/common": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "sideEffects": false,
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "next"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/augwit/ng2-file-upload.git"
+    "url": "git+ssh://git@github.com/ch-beck-pl/ng2-file-upload.git"
   },
   "bugs": {
-    "url": "https://github.com/augwit/ng2-file-upload/issues"
+    "url": "https://github.com/ch-beck-pl/ng2-file-upload/issues"
   },
-  "homepage": "https://github.com/augwit/ng2-file-upload#readme",
+  "homepage": "https://github.com/ch-beck-pl/ng2-file-upload#readme",
   "keywords": [
     "angular",
     "upload file",
     "ng",
     "ng2",
     "angular2"
-  ]
+  ],
+
 }
